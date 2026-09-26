@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(my_project
-    main.cpp
-    obstacle.cpp
-    robot.cpp
+    memory.cpp
 )
+#cmake -S . -B build
+#cmake --build build
